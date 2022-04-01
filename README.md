@@ -1,4 +1,4 @@
-# Heterogeneous Graph Fusion Network for Cross-modal Image-text Retrieval 
+# Multi-Prespective Motivated Neural Network for image-text matching (MPMNN) 
 
 
 ## Introduction
@@ -7,7 +7,7 @@ This is the source code of Heterogeneous Graph Fusion Network . It is built on t
 * numpy >= 1.12.1
 
 ## Download data
-Download the dataset files. We use the image feature created by SCAN, downloaded [here](https://github.com/kuanghuei/SCAN), and salience features can be extracted by  R^3 net
+Download the dataset files. We use the image feature created by SCAN, downloaded [here](https://github.com/kuanghuei/SCAN), and salience features can be extracted by  R^3 net (https://github.com/zijundeng/R3Net).
 
 ## Training
 
