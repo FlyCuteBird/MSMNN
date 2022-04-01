@@ -8,7 +8,7 @@ This is the source code of Heterogeneous Graph Fusion Network . It is built on t
 * numpy >= 1.12.1
 
 ## Download data
-Download the dataset files. We use the visual local features created by SCAN, downloaded [here](https://github.com/kuanghuei/SCAN), and salience features can be extracted by R^3 net (https://github.com/zijundeng/R3Net).
+Download the dataset files. We use the visual local features created by SCAN, downloaded [here](https://github.com/kuanghuei/SCAN), and salience features can be extracted by R^3 net (https://github.com/zijundeng/R3Net). After extracting the salience features, we need to connect local features and salience features by the order of images.
 
 ## Training
 
