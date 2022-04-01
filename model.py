@@ -21,7 +21,7 @@ import torch.nn.functional as F
 from collections import OrderedDict
 import math
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '5,4'
+os.environ['CUDA_VISIBLE_DEVICES'] = '7,6'
 
 def l1norm(X, dim, eps=1e-8):
     """L1-normalize columns of X
