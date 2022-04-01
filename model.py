@@ -815,7 +815,7 @@ class MPMNN(object):
         global_captions = Variable(global_captions, volatile=volatile)
 
         # salience mini-batch dataset
-        salience_images = images[:, :, 0:2048]
+        salience_images = images[:, :, 2048:]
         salience_images = torch.sum(salience_images, dim=1)
         salience_captions = captions
         salience_images = Variable(salience_images, volatile=volatile)
