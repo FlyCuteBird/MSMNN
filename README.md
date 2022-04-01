@@ -18,7 +18,7 @@ python train.py
 ```
 ## Evaluation
 ```bash
-python test.py
+python evalution1.py
 ```
 
 
