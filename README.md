@@ -2,9 +2,7 @@
 
 
 ## Introduction
-This is the source code of Heterogeneous Graph Fusion Network . It is built on top of the SCAN (https://github.com/kuanghuei/SCAN), GSMN in PyTorch.
-We recommended the following dependencies.
-* Python  2.7
+This is the source code of Heterogeneous Graph Fusion Network . It is built on top of the SCAN (https://github.com/kuanghuei/SCAN) in PyTorch. In our experiments, we use two NVIDIA Tesla K80 GPUs for the parallel training 
 * [PyTorch](http://pytorch.org/) 0.3.0
 * numpy >= 1.12.1
 
