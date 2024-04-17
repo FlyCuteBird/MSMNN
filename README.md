@@ -1,8 +1,8 @@
-# Multi-Prespective Motivated Neural Network for image-text matching (MPMNN) 
+# Multi-Scale Motivated Neural Network for image-text matching (MPMNN) 
 
 
 ## Introduction
-This is the source code of Heterogeneous Graph Fusion Network . It is built on top of the SCAN (https://github.com/kuanghuei/SCAN) in PyTorch. In our experiments, we use two NVIDIA Tesla K80 GPUs for the parallel training. 
+This is the source code of MSMNN. It is built on top of the SCAN (https://github.com/kuanghuei/SCAN) in PyTorch. In our experiments, we use two NVIDIA Tesla K80 GPUs for the parallel training. 
 * python == 2.7
 * [PyTorch](http://pytorch.org/) 0.3.0
 * numpy >= 1.12.1
